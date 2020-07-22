@@ -1,0 +1,9 @@
+-product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
+product/etc/default-permissions/default-permissions.xml
+product/etc/permissions/privapp-permissions-google-p.xml
+product/etc/permissions/privapp-permissions-google-ps.xml
+product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
+product/lib64/libsketchology_native.so
+-product/priv-app/MatchmakerPrebuiltPixel4/MatchmakerPrebuiltPixel4.apk;PRESIGNED
+-product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;PRESIGNED
+-product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
