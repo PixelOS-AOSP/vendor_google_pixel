@@ -31,6 +31,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "SoundPickerPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "MatchmakerPrebuiltPixel4",
 	owner: "google",
 	apk: "proprietary/product/priv-app/MatchmakerPrebuiltPixel4/MatchmakerPrebuiltPixel4.apk",

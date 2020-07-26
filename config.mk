@@ -17,3 +17,8 @@ PRODUCT_PACKAGES += \
     PixelFrameworksOverlay \
     PixelSettingsOverlay \
     PixelSystemUIOverlay
+
+# Sounds
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.alarm_alert=Bright_morning.ogg \
+    ro.config.notification_sound=End_note.ogg
