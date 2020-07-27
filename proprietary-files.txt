@@ -4,6 +4,12 @@ product/etc/default-permissions/default-permissions.xml
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/permissions/privapp-permissions-google-ps.xml
 product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
+product/fonts/GoogleSans-BoldItalic.ttf
+product/fonts/GoogleSans-Bold.ttf
+product/fonts/GoogleSans-Italic.ttf
+product/fonts/GoogleSans-MediumItalic.ttf
+product/fonts/GoogleSans-Medium.ttf
+product/fonts/GoogleSans-Regular.ttf
 product/lib64/libsketchology_native.so
 product/media/audio/alarms/A_real_hoot.ogg
 product/media/audio/alarms/Bright_morning.ogg
