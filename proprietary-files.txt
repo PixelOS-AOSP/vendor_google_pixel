@@ -3,6 +3,10 @@
 product/etc/default-permissions/default-permissions.xml
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/permissions/privapp-permissions-google-ps.xml
+product/etc/res/images/charger/battery_fail.png
+product/etc/res/images/charger/battery_scale.png
+product/etc/res/images/charger/main_font.png
+product/etc/res/values/charger/animation.txt
 product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
 product/fonts/GoogleSans-BoldItalic.ttf
 product/fonts/GoogleSans-Bold.ttf
