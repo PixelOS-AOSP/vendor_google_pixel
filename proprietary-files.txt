@@ -81,5 +81,4 @@ product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
 -product/priv-app/MatchmakerPrebuiltPixel4/MatchmakerPrebuiltPixel4.apk;PRESIGNED
--product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;PRESIGNED
 -product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence

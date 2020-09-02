@@ -101,7 +101,6 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     SoundPickerPrebuilt \
     MatchmakerPrebuiltPixel4 \
-    RecorderPrebuilt \
     SettingsIntelligenceGooglePrebuilt
 
 # Config
