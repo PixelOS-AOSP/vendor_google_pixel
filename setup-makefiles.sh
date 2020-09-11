@@ -48,9 +48,5 @@ sed -i 's/pixel/arm64/g' "$ANDROIDMK"
 sed -i -e '18i\\ninclude $(call all-makefiles-under,$(LOCAL_PATH))' "$ANDROIDMK"
 sed -i 's/by device/by vendor/g' "$ANDROIDBP"
 
-# Config (Extra stuff that isn't automated).
-echo -e '\n# Config' >> "$PRODUCTMK"
-echo -e '$(call inherit-product, vendor/google/pixel/config.mk)' >> "$PRODUCTMK"
-
 # Finish
 write_footers

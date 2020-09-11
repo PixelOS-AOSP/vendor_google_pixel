@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2019-2020 Paranoid Android
+ * Copyright (C) 2020 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,9 +42,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "MatchmakerPrebuiltPixel4",
+	name: "DevicePersonalizationPrebuiltPixel4",
 	owner: "google",
-	apk: "proprietary/product/priv-app/MatchmakerPrebuiltPixel4/MatchmakerPrebuiltPixel4.apk",
+	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel4/DevicePersonalizationPrebuiltPixel4.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

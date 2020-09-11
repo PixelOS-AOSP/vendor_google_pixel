@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Automated
+$(call inherit-product-if-exists, vendor/google/pixel/pixel-vendor.mk)
+
 # Overlays
 PRODUCT_PACKAGES += \
     PixelFrameworksOverlay \
