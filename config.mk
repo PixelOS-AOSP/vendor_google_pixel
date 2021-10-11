@@ -15,6 +15,9 @@
 # Automated
 $(call inherit-product, vendor/google/pixel/pixel-vendor.mk)
 
+# Fonts
+include vendor/google/pixel/fonts/fonts.mk
+
 # Overlays
 PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
