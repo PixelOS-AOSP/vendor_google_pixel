@@ -53,9 +53,24 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+        system/priv-app/GoogleExtServices/GoogleExtServices.apk)
+            touch "${2}"
+            ;;
+    esac
+}
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
+
+source_product_name=$(cat "${SRC}"/product/etc/build.prop | grep ro.product.product.name | sed 's|=| |' | awk '{print $2}')
+source_build_id=$(cat "${SRC}"/product/etc/build.prop | grep ro.product.build.id | sed 's|=| |' | awk '{print $2}')
+sed -i "s|# All unpinned files are extracted from.*|# All unpinned files are extracted from ${source_product_name} ${source_build_id}|" "${MY_DIR}/proprietary-files.txt"
+
+# Update google extension services
+source "${MY_DIR}/extract-GoogleExtServices.sh"
 
 "${MY_DIR}/setup-makefiles.sh"

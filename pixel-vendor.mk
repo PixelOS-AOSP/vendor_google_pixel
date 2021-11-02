@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     DocumentsUIGoogle \
+    GoogleExtServices \
     MarkupGoogle \
     PixelThemesStub \
     PixelWallpapers2022 \
@@ -118,4 +119,5 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     PixelSetupWizard \
     StorageManagerGoogle \
-    WallpaperPickerGoogleRelease
+    WallpaperPickerGoogleRelease \
+    privapp_allowlist_com.google.android.ext.services

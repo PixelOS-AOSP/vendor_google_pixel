@@ -16,6 +16,10 @@ system_ext/app/Flipendo/Flipendo.apk
 product/fonts/GoogleSans-Italic.ttf
 product/fonts/GoogleSans-Regular.ttf
 
+# Google extension services (extracted from com.google.android.extservices.apex) - from cheetah TQ3A.230605.012
+-system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|f248bec1192ffdf966484ccf29558f03885bee20
+-system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|e4b3cd562f6a313630eeccee1432d84aa71a44b0
+
 # Intelligence
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
 

@@ -18,6 +18,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "GoogleExtServices",
+	owner: "google",
+	apk: "proprietary/system/priv-app/GoogleExtServices/GoogleExtServices.apk",
+	overrides: ["ExtServices"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "MarkupGoogle",
 	owner: "google",
 	apk: "proprietary/product/app/MarkupGoogle/MarkupGoogle.apk",
@@ -232,5 +244,13 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "privapp_allowlist_com.google.android.ext.services",
+	owner: "google",
+	src: "proprietary/system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml",
+	filename_from_src: true,
+	sub_dir: "permissions",
 }
 
