@@ -5,7 +5,7 @@ product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
 product/etc/res/images/charger/main_font.png
 product/etc/res/values/charger/animation.txt
-product/etc/sysconfig/google.xml
+product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
 product/etc/sysconfig/google_build.xml
 product/etc/sysconfig/nexus.xml
 product/etc/sysconfig/pixel_experience_2017.xml
@@ -14,8 +14,6 @@ product/etc/sysconfig/pixel_experience_2019_midyear.xml
 product/etc/sysconfig/pixel_experience_2019.xml
 product/etc/sysconfig/pixel_experience_2020_midyear.xml
 product/etc/sysconfig/pixel_experience_2020.xml
-product/etc/sysconfig/pixel_experience_2021_midyear.xml
-product/etc/sysconfig/pixel_experience_2021.xml
 product/etc/fonts_customization.xml
 product/fonts/GoogleSans-Italic.ttf
 product/fonts/GoogleSans-Regular.ttf
@@ -66,13 +64,16 @@ product/media/audio/ui/audio_end.ogg
 product/media/audio/ui/audio_initiate.ogg
 product/media/audio/ui/camera_click.ogg
 product/media/audio/ui/camera_focus.ogg
+product/media/audio/ui/ChargingStarted.ogg
 product/media/audio/ui/Dock.ogg
+product/media/audio/ui/Effect_Tick.ogg
 product/media/audio/ui/InCallNotification.ogg
 product/media/audio/ui/KeypressDelete.ogg
 product/media/audio/ui/KeypressInvalid.ogg
 product/media/audio/ui/KeypressReturn.ogg
 product/media/audio/ui/KeypressSpacebar.ogg
 product/media/audio/ui/KeypressStandard.ogg
+product/media/audio/ui/Lock.ogg
 product/media/audio/ui/LowBattery.ogg
 product/media/audio/ui/NFCFailure.ogg
 product/media/audio/ui/NFCInitiated.ogg
@@ -83,12 +84,14 @@ product/media/audio/ui/reverse_charging_end.ogg
 product/media/audio/ui/reverse_charging_start.ogg
 product/media/audio/ui/Trusted.ogg
 product/media/audio/ui/Undock.ogg
+product/media/audio/ui/Unlock.ogg
 product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
-
-# AOSP Sounds
-product/media/audio/ui/ChargingStarted.ogg|244609b38b825ce3c6e9e2a3e6b2b5f6ecac6ef8
-product/media/audio/ui/Effect_Tick.ogg|b8b51032e8baed863ba1667192f32586200f99b5
-product/media/audio/ui/Lock.ogg|c1d83d37aeff93a0e0e340297059536e5ca42e9d
-product/media/audio/ui/Unlock.ogg|942f421c14f2b024fa648ef85cd5dbf4d53550f7
+-product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
+-product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk;PRESIGNED
+-product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED
+-product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
+-system_ext/app/Flipendo/Flipendo.apk
+system_ext/etc/permissions/privapp-permissions-google-se.xml
+-system_ext/priv-app/TurboAdapter/TurboAdapter.apk

@@ -101,6 +101,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.WIFI_SET_DEVICE_MOBILITY_STATE"/>
         <permission name="android.permission.NETWORK_SCAN"/>
         <permission name="android.permission.REGISTER_STATS_PULL_ATOM"/>
+        <permission name="android.permission.RENOUNCE_PERMISSIONS"/>
         <permission name="android.permission.RESTART_WIFI_SUBSYSTEM"/>
     </privapp-permissions>
 
@@ -465,6 +466,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.STOP_APP_SWITCHES"/>
         <permission name="com.google.android.permission.SET_WATCH_FACE_PRIVILEGED"/>
         <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.SUBSTITUTE_SHARE_TARGET_APP_NAME_AND_ICON"/>
     </privapp-permissions>
     <privapp-permissions package="com.google.android.settings.intelligence">
         <permission name="android.permission.MANAGE_FINGERPRINT"/>
