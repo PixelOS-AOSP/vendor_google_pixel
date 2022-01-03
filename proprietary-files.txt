@@ -95,3 +95,6 @@ product/media/audio/ui/WirelessChargingStarted.ogg
 -system_ext/app/Flipendo/Flipendo.apk
 system_ext/etc/permissions/privapp-permissions-google-se.xml
 -system_ext/priv-app/TurboAdapter/TurboAdapter.apk
+
+# Marlin Feature XML
+system/etc/sysconfig/pixel_2016_exclusive.xml|f4eeeeec14b22b913d865ba5895dcca9f0214f57
