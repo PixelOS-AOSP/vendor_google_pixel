@@ -14,10 +14,11 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.documentsui.pixel.overlay">
+    package="com.google.android.documentsui.pixel.overlay">
 
     <overlay
         android:isStatic="true"
         android:priority="550"
-        android:targetPackage="com.android.documentsui" />
+        android:targetName="DocumentsUICustomization"
+        android:targetPackage="com.google.android.documentsui" />
 </manifest>
