@@ -102,6 +102,7 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
+    RecorderPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     TurboPrebuilt \
     Flipendo \
