@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
     PixelDocumentsUIOverlay \
     PixelFrameworksOverlay \
+    PixelLauncherFontOverlay \
     PixelSettingsOverlay \
     PixelSystemUIOverlay
 
