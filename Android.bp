@@ -56,7 +56,7 @@ android_app_import {
 	name: "RecorderPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk",
-	overrides: ["SoundRecorder QtiSoundRecorder"],
+	overrides: ["SoundRecorder", "QtiSoundRecorder"],
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
