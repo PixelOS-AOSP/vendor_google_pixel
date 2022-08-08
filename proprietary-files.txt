@@ -1,5 +1,5 @@
--product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
--product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
+product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
+product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
@@ -89,18 +89,18 @@ product/media/audio/ui/Unlock.ogg
 product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
--product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
--product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk;PRESIGNED
--product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
--product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
--system_ext/app/Flipendo/Flipendo.apk
+product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
+product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk;PRESIGNED
+product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
+product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
+system_ext/app/Flipendo/Flipendo.apk
 system_ext/etc/permissions/privapp-permissions-google-se.xml
 
 # Recorder - from redfin
--product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=SoundRecorder,QtiSoundRecorder;PRESIGNED|94cd5fda384d44a9a095964c42cc27342e254983
+product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=SoundRecorder,QtiSoundRecorder;PRESIGNED|94cd5fda384d44a9a095964c42cc27342e254983
 
 # TurboAdapter without google_battery
--system_ext/priv-app/TurboAdapter/TurboAdapter.apk|8fab19f12a1652c014084e80de7112487aece38a
+system_ext/priv-app/TurboAdapter/TurboAdapter.apk|8fab19f12a1652c014084e80de7112487aece38a
 
 # Marlin Feature XML
 system/etc/sysconfig/pixel_2016_exclusive.xml|f4eeeeec14b22b913d865ba5895dcca9f0214f57
