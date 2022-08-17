@@ -24,4 +24,12 @@
     "com.android.systemui,com.android.xyz" -->
     <string translatable="false" name="config_cameraProtectionExcludedPackages">com.google.android.as</string>
 
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        internet,bt,flashlight,dnd,alarm,airplane,controls,wallet,rotation,qr_code_scanner,battery,cast,screenrecord,custom(com.google.android.gms/.nearby.sharing.SharingTileService),mictoggle,cameratoggle,custom(com.google.android.permissioncontroller/com.android.permissioncontroller.permission.service.SafetyCenterQsTileService)
+    </string>
+
+    <!-- Remote Copy default activity -->
+    <string name="config_remoteCopyPackage">com.google.android.gms/.nearby.sharing.RemoteCopyShareSheetActivity</string>
+
 </resources>

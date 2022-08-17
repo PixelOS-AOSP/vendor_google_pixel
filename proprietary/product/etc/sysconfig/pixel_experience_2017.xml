@@ -30,6 +30,10 @@
     <!-- Allow MDS ExperimentService to run in background -->
     <allow-in-power-save package="com.google.mds" />
 
+    <!-- Allow Exo services to run in background -->
+    <allow-in-power-save package="com.google.pixel.exo" />
+    <allow-in-power-save package="com.google.ambient.streaming" />
+
     <!-- Allow OMA DM to run in background -->
     <allow-in-power-save package="com.android.omadm.service" />
     <allow-in-power-save package="com.android.sdm.plugins.connmo" />
@@ -37,6 +41,10 @@
     <allow-in-power-save package="com.android.sdm.plugins.diagmon" />
     <allow-in-power-save package="com.android.vzwomatrigger" />
     <allow-in-power-save package="com.android.sdm.plugins.usccdm" />
+
+    <!-- Allow Gate runners to run in background -->
+    <allow-in-power-save package="com.google.pixel.gate.android.pysupport" />
+    <allow-in-power-save package="com.google.pixel.gate.android.daemon" />
 
     <!-- Hide DocumentsUi Launcher/Downloads intent handling. DocumentsUi
          PrebootReceiver does not properly hide the launcher in work profile,
