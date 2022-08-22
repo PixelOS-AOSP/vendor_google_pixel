@@ -2,6 +2,7 @@ product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
 product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
+product/etc/sysconfig/game_service.xml
 product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
 product/etc/sysconfig/google_build.xml
 product/etc/sysconfig/nexus.xml
