@@ -98,9 +98,6 @@ product/etc/res/images/charger/battery_scale.png|24f56f4e496647df0000a1bd4f762d7
 product/etc/res/images/charger/main_font.png|779bf9a5807a67c3666f07536e00325823dac186
 product/etc/res/values/charger/animation.txt|f82c7ab3895ef42e865ea4522c639a06c93d0894
 
-# Recorder - from redfin
-product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;OVERRIDES=SoundRecorder,QtiSoundRecorder;PRESIGNED|94cd5fda384d44a9a095964c42cc27342e254983
-
 # TurboAdapter without google_battery
 system_ext/priv-app/TurboAdapter/TurboAdapter.apk|8fab19f12a1652c014084e80de7112487aece38a
 

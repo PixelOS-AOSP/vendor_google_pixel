@@ -104,7 +104,6 @@ PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
     FilesPrebuilt \
-    RecorderPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     Flipendo \
     TurboAdapter
