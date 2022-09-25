@@ -2,6 +2,10 @@ product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
 product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
+product/etc/res/images/charger/battery_fail.png
+product/etc/res/images/charger/battery_scale.png
+product/etc/res/images/charger/main_font.png
+product/etc/res/values/charger/animation.txt
 product/etc/sysconfig/game_service.xml
 product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
 product/etc/sysconfig/google_build.xml
@@ -19,7 +23,6 @@ product/media/audio/alarms/A_real_hoot.ogg
 product/media/audio/alarms/Bright_morning.ogg
 product/media/audio/alarms/Cuckoo_clock.ogg
 product/media/audio/alarms/Early_twilight.ogg
-product/media/audio/alarms/Fresh_start.ogg
 product/media/audio/alarms/Full_of_wonder.ogg
 product/media/audio/alarms/Gentle_breeze.ogg
 product/media/audio/alarms/Icicles.ogg
@@ -32,7 +35,6 @@ product/media/audio/notifications/Beginning.ogg
 product/media/audio/notifications/Coconuts.ogg
 product/media/audio/notifications/Duet.ogg
 product/media/audio/notifications/End_note.ogg
-product/media/audio/notifications/Eureka.ogg
 product/media/audio/notifications/Gentle_gong.ogg
 product/media/audio/notifications/Mallet.ogg
 product/media/audio/notifications/Orders_up.ogg
@@ -55,9 +57,7 @@ product/media/audio/ringtones/Mash_up.ogg
 product/media/audio/ringtones/Monkey_around.ogg
 product/media/audio/ringtones/Schools_out.ogg
 product/media/audio/ringtones/The_big_adventure.ogg
-product/media/audio/ringtones/Your_new_adventure.ogg
 product/media/audio/ringtones/Zen_too.ogg
-product/media/audio/ui/AttentionalHaptics.ogg
 product/media/audio/ui/audio_end.ogg
 product/media/audio/ui/audio_initiate.ogg
 product/media/audio/ui/camera_click.ogg
@@ -87,17 +87,11 @@ product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
 product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk;PRESIGNED
+product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
 system_ext/app/Flipendo/Flipendo.apk
 system_ext/etc/permissions/privapp-permissions-google-se.xml
-
-# Offline charging animation - from redfin
-product/etc/res/images/charger/battery_fail.png|b7de0ce7faebdb0fd44eea59e739a49fc1951ae6
-product/etc/res/images/charger/battery_scale.png|24f56f4e496647df0000a1bd4f762d7a6f35de1a
-product/etc/res/images/charger/main_font.png|779bf9a5807a67c3666f07536e00325823dac186
-product/etc/res/values/charger/animation.txt|f82c7ab3895ef42e865ea4522c639a06c93d0894
 
 # TurboAdapter without google_battery
 system_ext/priv-app/TurboAdapter/TurboAdapter.apk|8fab19f12a1652c014084e80de7112487aece38a
