@@ -13,7 +13,8 @@
 # limitations under the License.
 
 # Automated
-$(call inherit-product-if-exists, vendor/google/pixel/pixel-vendor.mk)
+$(call inherit-product, vendor/google/pixel/pixel-vendor.mk)
+$(call inherit-product, vendor/aospa/prebuilt/pixel.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
