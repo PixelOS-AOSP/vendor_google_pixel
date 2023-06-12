@@ -38,3 +38,6 @@ sed -i 's/by device/by vendor/g' "$ANDROIDBP"
 
 # Finish
 write_footers
+
+# Exclusions
+sed -i '/libpowerstatshaldataprovider/d' "${ANDROID_ROOT}/vendor/google/pixel/pixel-vendor.mk"
