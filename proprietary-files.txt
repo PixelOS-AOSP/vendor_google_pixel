@@ -12,6 +12,8 @@ system_ext/app/Flipendo/Flipendo.apk
 # Fonts
 product/fonts/GoogleSans-Italic.ttf
 product/fonts/GoogleSans-Regular.ttf
+product/fonts/GoogleSansClock-Regular.ttf
+product/fonts/GoogleSansFlex-Regular.ttf
 
 # Google extension services (extracted from com.google.android.extservices.apex) - from cheetah TQ3A.230705.001
 -system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|0e0ff1401ed9fcfc6075f243a62674e9f55a90f0
