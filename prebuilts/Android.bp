@@ -1,0 +1,49 @@
+//
+// Copyright (C) 2023 Paranoid Android
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app_import {
+	name: "DeviceIntelligenceNetworkPrebuilt",
+	owner: "google",
+	apk: "app/DeviceIntelligenceNetworkPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "DevicePersonalizationPrebuiltPixel2020",
+	owner: "google",
+	apk: "app/DevicePersonalizationPrebuiltPixel2020.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "TurboAdapter",
+	owner: "google",
+	apk: "app/TurboAdapter.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "com.google.android.apps.dialer.call_recording_audio.features",
+	owner: "google",
+	src: "permissions/com.google.android.apps.dialer.call_recording_audio.features.xml",
+	filename_from_src: true,
+	sub_dir: "permissions",
+	product_specific: true,
+}
