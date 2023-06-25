@@ -13,6 +13,12 @@ product/fonts/GoogleSans-Regular.ttf
 # Intelligence
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
 
+# Overlays
+-product/overlay/PixelSetupWizardOverlay.apk
+-product/overlay/PixelSetupWizardOverlay2019.apk
+-product/overlay/PixelSetupWizardOverlay2021.apk
+-product/overlay/PixelSetupWizard__auto_generated_rro_product.apk:product/overlay/PixelSetupWizard_rro.apk
+
 # Launcher
 -system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;apkOVERRIDES=Launcher3,Launcher3QuickStep,TrebuchetQuickStep;PRESIGNED
 
@@ -95,6 +101,10 @@ product/media/audio/ui/camera_click.ogg
 product/media/audio/ui/camera_focus.ogg
 product/media/audio/ui/reverse_charging_end.ogg
 product/media/audio/ui/reverse_charging_start.ogg
+
+# Setup
+-product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk;OVERRIDES=Provision;PRESIGNED
+-system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
 
 # Sound
 product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker

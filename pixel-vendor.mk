@@ -102,6 +102,8 @@ PRODUCT_PACKAGES += \
     FilesPrebuilt \
     PixelLiveWallpaperPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
+    SetupWizardPrebuilt \
     Flipendo \
     NexusLauncherRelease \
+    PixelSetupWizard \
     WallpaperPickerGoogleRelease
