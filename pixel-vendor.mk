@@ -99,4 +99,5 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     FilesPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    Flipendo
+    Flipendo \
+    NexusLauncherRelease
