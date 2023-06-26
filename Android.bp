@@ -75,6 +75,19 @@ android_app_import {
 }
 
 android_app_import {
+	name: "SafetyHubPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk",
+	overrides: ["EmergencyInfo"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
 	name: "SettingsIntelligenceGooglePrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk",
@@ -98,6 +111,17 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+}
+
+android_app_import {
+	name: "EmergencyInfoGoogleNoUi",
+	owner: "google",
+	apk: "proprietary/system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
 }
 
 android_app_import {

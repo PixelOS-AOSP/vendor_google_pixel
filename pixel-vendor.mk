@@ -101,8 +101,10 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     FilesPrebuilt \
     PixelLiveWallpaperPrebuilt \
+    SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
+    EmergencyInfoGoogleNoUi \
     Flipendo \
     NexusLauncherRelease \
     PixelSetupWizard \

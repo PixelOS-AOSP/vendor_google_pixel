@@ -102,6 +102,10 @@ product/media/audio/ui/camera_focus.ogg
 product/media/audio/ui/reverse_charging_end.ogg
 product/media/audio/ui/reverse_charging_start.ogg
 
+# SafetyHub
+-product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk;OVERRIDES=EmergencyInfo;PRESIGNED
+-system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk
+
 # Setup
 -product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk;OVERRIDES=Provision;PRESIGNED
 -system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
