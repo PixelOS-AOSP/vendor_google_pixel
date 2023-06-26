@@ -1,4 +1,6 @@
 product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
+-product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
+-product/app/PixelWallpapers2022/PixelWallpapers2022.apk;PRESIGNED
 product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
@@ -87,6 +89,8 @@ product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
+-product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
+-system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
 system_ext/app/Flipendo/Flipendo.apk
 system_ext/etc/permissions/privapp-permissions-google-se.xml

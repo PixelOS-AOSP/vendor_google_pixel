@@ -96,8 +96,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     MarkupGoogle \
+    PixelThemesStub \
+    PixelWallpapers2022 \
     SoundPickerPrebuilt \
     FilesPrebuilt \
+    PixelLiveWallpaperPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     Flipendo \
-    NexusLauncherRelease
+    NexusLauncherRelease \
+    WallpaperPickerGoogleRelease
