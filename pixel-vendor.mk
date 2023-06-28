@@ -8,6 +8,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/google/pixel/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
     vendor/google/pixel/proprietary/product/etc/preferred-apps/pixel.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/pixel.xml \
+    vendor/google/pixel/proprietary/product/etc/security/fsverity/gms_fsverity_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/gms_fsverity_cert.der \
+    vendor/google/pixel/proprietary/product/etc/security/fsverity/play_store_fsi_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/play_store_fsi_cert.der \
     vendor/google/pixel/proprietary/product/etc/sysconfig/game_service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/game_service.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/google_build.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_build.xml \
@@ -104,6 +106,7 @@ PRODUCT_PACKAGES += \
     FilesPrebuilt \
     PixelLiveWallpaperPrebuilt \
     SafetyHubPrebuilt \
+    SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
     WallpaperEffect \
