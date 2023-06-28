@@ -100,11 +100,13 @@ PRODUCT_PACKAGES += \
     PixelThemesStub \
     PixelWallpapers2022 \
     SoundPickerPrebuilt \
+    WallpaperEmojiPrebuilt \
     FilesPrebuilt \
     PixelLiveWallpaperPrebuilt \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
+    WallpaperEffect \
     EmergencyInfoGoogleNoUi \
     Flipendo \
     NexusLauncherRelease \
