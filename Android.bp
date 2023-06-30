@@ -6,6 +6,18 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "DocumentsUIGoogle",
+	owner: "google",
+	apk: "proprietary/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk",
+	overrides: ["DocumentsUI"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "MarkupGoogle",
 	owner: "google",
 	apk: "proprietary/product/app/MarkupGoogle/MarkupGoogle.apk",
@@ -188,6 +200,19 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk",
 	overrides: ["LineageSetupWizard"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "StorageManagerGoogle",
+	owner: "google",
+	apk: "proprietary/system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk",
+	overrides: ["StorageManager"],
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
