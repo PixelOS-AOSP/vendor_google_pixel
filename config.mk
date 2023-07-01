@@ -43,6 +43,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    NowPlayingOverlay \
     PixelDocumentsUIGoogleOverlay \
     PixelDocumentsUIOverlay \
     PixelFrameworksOverlay \
