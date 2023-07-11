@@ -35,7 +35,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Gestural navbar
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # Overlays
 PRODUCT_PACKAGES += \
