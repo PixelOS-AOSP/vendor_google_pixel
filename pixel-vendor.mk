@@ -109,6 +109,9 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     WallpaperEmojiPrebuilt \
     FilesPrebuilt \
+    GoogleOneTimeInitializer \
+    GoogleRestorePrebuilt \
+    PartnerSetupPrebuilt \
     PixelLiveWallpaperPrebuilt \
     SafetyHubPrebuilt \
     SecurityHubPrebuilt \
