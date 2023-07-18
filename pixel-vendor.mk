@@ -117,6 +117,7 @@ PRODUCT_PACKAGES += \
     SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
+    TurboPrebuilt \
     WallpaperEffect \
     EmergencyInfoGoogleNoUi \
     Flipendo \

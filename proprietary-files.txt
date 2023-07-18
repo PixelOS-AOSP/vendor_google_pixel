@@ -154,3 +154,6 @@ product/etc/sysconfig/quick_tap.xml
 
 # Sysconfig - from marlin-qp1a.191005.007.a3-factory-bef66533
 system/etc/sysconfig/pixel_2016_exclusive.xml:product/etc/sysconfig/pixel_experience_2016.xml|f4eeeeec14b22b913d865ba5895dcca9f0214f57
+
+# Turbo
+-product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
