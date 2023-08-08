@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from cheetah-tq3a.230705.001
+# All unpinned blobs below are extracted from cheetah-tq3a.230805.001
 
 # Files
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
@@ -15,8 +15,8 @@ product/fonts/GoogleSans-Regular.ttf
 product/fonts/GoogleSansClock-Regular.ttf
 product/fonts/GoogleSansFlex-Regular.ttf
 
-# Google extension services (extracted from com.google.android.extservices.apex) - from cheetah TQ3A.230705.001
--system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|0e0ff1401ed9fcfc6075f243a62674e9f55a90f0
+# Google extension services (extracted from com.google.android.extservices.apex) - from cheetah TQ3A.230805.001
+-system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|6ac12e35bb42e998f443f422461c451d0f6e8e59
 -system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|e4b3cd562f6a313630eeccee1432d84aa71a44b0
 
 # Intelligence
