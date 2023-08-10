@@ -135,7 +135,6 @@ product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=Soun
 -product/app/PixelWallpapers2022/PixelWallpapers2022.apk;PRESIGNED
 product/app/WallpaperEmojiPrebuilt/WallpaperEmojiPrebuilt.apk;PRESIGNED
 -product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
-product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
 -system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
 
 # Sysconfig

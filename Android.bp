@@ -210,18 +210,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WallpaperEffect",
-	owner: "google",
-	apk: "proprietary/product/priv-app/WallpaperEffect/WallpaperEffect.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "EmergencyInfoGoogleNoUi",
 	owner: "google",
 	apk: "proprietary/system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk",

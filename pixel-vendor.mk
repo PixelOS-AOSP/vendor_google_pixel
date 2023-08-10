@@ -118,7 +118,6 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
     TurboPrebuilt \
-    WallpaperEffect \
     EmergencyInfoGoogleNoUi \
     Flipendo \
     NexusLauncherRelease \
