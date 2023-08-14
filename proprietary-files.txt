@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from cheetah-tq3a.230805.001
+# All unpinned blobs below are extracted from redfin-tq3a.230805.001
 
 # Files
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
@@ -15,8 +15,8 @@ product/fonts/GoogleSans-Regular.ttf
 product/fonts/GoogleSansClock-Regular.ttf
 product/fonts/GoogleSansFlex-Regular.ttf
 
-# Google extension services (extracted from com.google.android.extservices.apex) - from cheetah TQ3A.230805.001
--system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|6ac12e35bb42e998f443f422461c451d0f6e8e59
+# Google extension services (extracted from com.google.android.extservices.apex) - from redfin TQ3A.230805.001
+-system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|d8a4188d38ad18a80913d06bd3d8ee98eb61c8f6
 -system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|e4b3cd562f6a313630eeccee1432d84aa71a44b0
 
 # Intelligence
@@ -25,7 +25,6 @@ product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePr
 # Overlays
 -product/overlay/PixelSetupWizardOverlay.apk
 -product/overlay/PixelSetupWizardOverlay2019.apk
--product/overlay/PixelSetupWizardOverlay2021.apk
 -product/overlay/PixelSetupWizard__auto_generated_rro_product.apk:product/overlay/PixelSetupWizard_rro.apk
 
 # Launcher
@@ -43,7 +42,6 @@ product/media/audio/alarms/A_real_hoot.ogg
 product/media/audio/alarms/Bright_morning.ogg
 product/media/audio/alarms/Cuckoo_clock.ogg
 product/media/audio/alarms/Early_twilight.ogg
-product/media/audio/alarms/Fresh_start.ogg
 product/media/audio/alarms/Full_of_wonder.ogg
 product/media/audio/alarms/Gentle_breeze.ogg
 product/media/audio/alarms/Icicles.ogg
@@ -56,7 +54,6 @@ product/media/audio/notifications/Beginning.ogg
 product/media/audio/notifications/Coconuts.ogg
 product/media/audio/notifications/Duet.ogg
 product/media/audio/notifications/End_note.ogg
-product/media/audio/notifications/Eureka.ogg
 product/media/audio/notifications/Gentle_gong.ogg
 product/media/audio/notifications/Mallet.ogg
 product/media/audio/notifications/Orders_up.ogg
@@ -79,9 +76,7 @@ product/media/audio/ringtones/Mash_up.ogg
 product/media/audio/ringtones/Monkey_around.ogg
 product/media/audio/ringtones/Schools_out.ogg
 product/media/audio/ringtones/The_big_adventure.ogg
-product/media/audio/ringtones/Your_new_adventure.ogg
 product/media/audio/ringtones/Zen_too.ogg
-product/media/audio/ui/AttentionalHaptics.ogg
 product/media/audio/ui/ChargingStarted.ogg
 product/media/audio/ui/Dock.ogg
 product/media/audio/ui/Effect_Tick.ogg
@@ -121,9 +116,6 @@ product/etc/security/fsverity/play_store_fsi_cert.der
 -product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk;PRESIGNED
 
 # Setup
--product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;OVERRIDES=OneTimeInitializer;PRESIGNED
--product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk;PRESIGNED
--product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk;PRESIGNED
 -product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk;OVERRIDES=Provision;PRESIGNED
 -system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
 
@@ -132,7 +124,7 @@ product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=Soun
 
 # Styles & Wallpapers
 -product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
--product/app/PixelWallpapers2022/PixelWallpapers2022.apk;PRESIGNED
+-product/app/PixelWallpapers2020/PixelWallpapers2020.apk;PRESIGNED
 product/app/WallpaperEmojiPrebuilt/WallpaperEmojiPrebuilt.apk;PRESIGNED
 -product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
 -system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
@@ -153,6 +145,3 @@ product/etc/sysconfig/quick_tap.xml
 
 # Sysconfig - from marlin-qp1a.191005.007.a3-factory-bef66533
 system/etc/sysconfig/pixel_2016_exclusive.xml:product/etc/sysconfig/pixel_experience_2016.xml|f4eeeeec14b22b913d865ba5895dcca9f0214f57
-
-# Turbo
--product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED

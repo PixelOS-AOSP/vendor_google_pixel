@@ -52,9 +52,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PixelWallpapers2022",
+	name: "PixelWallpapers2020",
 	owner: "google",
-	apk: "proprietary/product/app/PixelWallpapers2022/PixelWallpapers2022.apk",
+	apk: "proprietary/product/app/PixelWallpapers2020/PixelWallpapers2020.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -89,43 +89,6 @@ android_app_import {
 	name: "FilesPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/FilesPrebuilt/FilesPrebuilt.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "GoogleOneTimeInitializer",
-	owner: "google",
-	apk: "proprietary/product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk",
-	overrides: ["OneTimeInitializer"],
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "GoogleRestorePrebuilt",
-	owner: "google",
-	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "PartnerSetupPrebuilt",
-	owner: "google",
-	apk: "proprietary/product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -189,18 +152,6 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk",
 	overrides: ["Provision"],
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "TurboPrebuilt",
-	owner: "google",
-	apk: "proprietary/product/priv-app/TurboPrebuilt/TurboPrebuilt.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
