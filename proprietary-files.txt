@@ -15,8 +15,8 @@ product/fonts/GoogleSans-Regular.ttf
 product/fonts/GoogleSansClock-Regular.ttf
 product/fonts/GoogleSansFlex-Regular.ttf
 
-# Google extension services (extracted from com.google.android.extservices.apex) - from redfin TQ3A.230805.001
--system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|d8a4188d38ad18a80913d06bd3d8ee98eb61c8f6
+# Google extension services (extracted from com.google.android.extservices.apex) - from redfin TQ3A.230901.001
+-system/priv-app/GoogleExtServices/GoogleExtServices.apk;OVERRIDES=ExtServices;PRESIGNED|943d319e3b1e7d9d0b2cb74a7c811b796c7a1e42
 -system/etc/permissions/privapp_allowlist_com.google.android.ext.services.xml|e4b3cd562f6a313630eeccee1432d84aa71a44b0
 
 # Intelligence
